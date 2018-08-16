@@ -5,3 +5,7 @@
 gradient_learn --- gradient属性学习，包括静态xml设置和动态java代码添加
 
 dynamic_layout_learn/bouncetest --- 动态布局学习
+
+startactivity_learn --- startActivityForResult学习例子
+
+
