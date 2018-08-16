@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="splashStart">#291156</color>
+    <color name="splashCenter">#491982</color>
+    <color name="splashEnd">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ffb850</color>
+    <color name="green">#30c2b1</color>
+    <color name="green_light">#FF3DFD</color>
+</resources>

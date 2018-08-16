@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/splash_page_color_gradient">
+
+    <com.example.cm.bounce.gradientView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@mipmap/cms_splash_activity_pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:textSize="14sp"
+        android:text="SKIP"
+        android:textColor="@color/white"
+        />
+
+    <RelativeLayout
+        android:id="@+id/logo_ly"
+        android:layout_above="@+id/splash_page_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+        <ImageView
+            android:id="@+id/logo_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/splash_logo_left"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@+id/vertical_line"/>
+
+        <View
+            android:id="@+id/vertical_line"
+            android:layout_width="1dp"
+            android:layout_height="46.2dp"
+            android:background="#99FFFFFF"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/logo_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/splash_logo_right"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/vertical_line"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/splash_page_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/join_now_btn"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/splash_corner_btn_shape"
+            android:textColor="@color/white"
+            android:text="Join Now"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+
+</RelativeLayout>
