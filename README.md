@@ -8,4 +8,4 @@ dynamic_layout_learn/bouncetest --- 动态布局学习
 
 startactivity_learn --- startActivityForResult学习例子
 
-
+BRVAH_learn --- recyclerView的封装例子demo
