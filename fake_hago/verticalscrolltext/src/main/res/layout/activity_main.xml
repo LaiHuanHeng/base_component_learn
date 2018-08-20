@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello World!"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kajsdk"
+        android:layout_gravity="center" />
+
+    <TextSwitcher
+        android:id="@+id/switcher1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/in_animation"
+        android:outAnimation="@anim/out_animation"
+        android:layout_gravity="center"
+        android:onClick="next"></TextSwitcher>
+    <TextView
+        android:text="和我阿瑟东"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.example.verticalscrolltext.TextSwitchView
+        android:id="@+id/switcher2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/in_animation"
+        android:outAnimation="@anim/out_animation"
+        android:layout_gravity="center"
+        android:onClick="next"></com.example.verticalscrolltext.TextSwitchView>
+
+    <com.example.verticalscrolltext.AutoVerticalScrollTextView
+        android:id="@+id/vip_header_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="哈哈哈哈"
+        android:textColor="@color/colorAccent"
+        android:textSize="21dp"  />
+
+</LinearLayout>
