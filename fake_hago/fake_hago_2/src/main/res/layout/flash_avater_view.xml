@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/light">
+
+        <com.example.fake_hago_2.view.CircleImageView
+            android:id="@+id/top_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/top_img"
+            android:layout_marginRight="7dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic2"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/light" />
+        <com.example.fake_hago_2.view.CircleImageView
+            android:id="@+id/top_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/hugh"
+            android:layout_marginRight="7dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/light" />
+        <com.example.fake_hago_2.view.CircleImageView
+            android:id="@+id/top_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/top_img"
+            android:layout_marginRight="7dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/pic3"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/light" />
+        <com.example.fake_hago_2.view.CircleImageView
+            android:id="@+id/top_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/top_3"
+            android:src="@drawable/pic4"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/light" />
+
+    </RelativeLayout>
+
+</merge>
