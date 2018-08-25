@@ -14,6 +14,6 @@ verticalscrolltext --- 自动轮播TextView
 
 circle_small_big	头像闪动轮播--自定义FlashAvaterView
 
-
+diffut	RecyclerView配合DiffUtil实现局部刷新
 
 
