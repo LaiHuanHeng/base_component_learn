@@ -11,3 +11,9 @@ startactivity_learn --- startActivityForResult学习例子
 BRVAH_learn --- recyclerView的封装例子demo
 
 verticalscrolltext --- 自动轮播TextView
+
+circle_small_big	头像闪动轮播--自定义FlashAvaterView
+
+
+
+
