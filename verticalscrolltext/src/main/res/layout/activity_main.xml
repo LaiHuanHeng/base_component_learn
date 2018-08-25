@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextSwitcher
+        android:id="@+id/switcher1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inAnimation="@anim/in_animation"
+        android:outAnimation="@anim/out_animation"
+        android:layout_gravity="center"
+        android:onClick="next"></TextSwitcher>
+
+    <com.example.verticalscrolltext.TextSwitchView
+        android:id="@+id/switcher2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inAnimation="@anim/in_animation"
+        android:outAnimation="@anim/out_animation"
+        android:layout_gravity="center"
+        android:onClick="next"></com.example.verticalscrolltext.TextSwitchView>
+
+
+</LinearLayout>
