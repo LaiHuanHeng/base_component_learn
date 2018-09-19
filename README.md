@@ -23,3 +23,5 @@ dialog_learn	自定义Dialog学习
 self_divider	 --- 自定义万能分割线
 
 get_excel_values	获取Excel表格中指定行列值
+
+progressbar	自定义圆形progressBar
